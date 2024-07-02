@@ -42,6 +42,7 @@ function startConverting() {
   const outputTypeCell = this.parentElement.nextElementSibling;
   const downloadCell = outputTypeCell.nextElementSibling;
   const statusCell = this.parentElement.previousElementSibling;
+  statusCell.innerText = 'Converting';
   const fileName= statusCell.id;
   let formData = new FormData();
   formData.append('fileName', fileName);
