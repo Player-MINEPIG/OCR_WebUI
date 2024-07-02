@@ -21,9 +21,11 @@ This project is based on Python. So please install python first.
 2. enter `git clone https://github.com/Player-MINEPIG/OCR_WebUI.git` to download the project
 3. enter `cd OCR_WebUI` to navigate to the root folder
 
-4. enter `pip install -r requirements.txt` to download requirements
-5. enter `python webui.py` to start the webui
-6. enter ctrl+c to stop the server
+4. follow `https://tesseract-ocr.github.io/tessdoc/Installation.html` to download tesseract-ocr
+
+5. enter `pip install -r requirements.txt` to download other requirements
+6. enter `python webui.py` to start the webui
+7. enter ctrl+c to stop the server
 
 ## Usage
 
