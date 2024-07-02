@@ -18,10 +18,10 @@ This project is based on Python. So please install python first.
 
 1. Open the terminal, navigate to the folder where you want to put this app.
 
-2. enter `git clone link` to download the project
-3. enter `cd name` to navigate to the root folder
+2. enter `git clone https://github.com/Player-MINEPIG/OCR_WebUI.git` to download the project
+3. enter `cd OCR_WebUI` to navigate to the root folder
 
-4. enter `pip install requirements.txt` to download requirements
+4. enter `pip install -r requirements.txt` to download requirements
 5. enter `python webui.py` to start the webui
 6. enter ctrl+c to stop the server
 
@@ -166,3 +166,9 @@ This file.
 1. install
 2. `python ocr.py`
 3. follow the command-line tips.
+
+
+
+## License
+
+MIT license
