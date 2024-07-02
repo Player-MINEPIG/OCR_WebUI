@@ -2,6 +2,8 @@
 
 ## Intro
 
+Simple intro video for CS50 is here https://youtu.be/3Nv1o5SJX7E
+
 This is a project used to take texts out of files that cannot directly select the texts. It has command-line version, but I'll recommend the webui version. The following texts without special explanation are all refer to the webui version.
 
 As for the AIPC is developing fast, soon the only superiority of this project which is privacy will disappear. So this is just a project for study purpose. If you wish to use it, I appreciate it, but still appeal you to find some more mature projects.
