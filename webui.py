@@ -174,6 +174,7 @@ file_status = {}
 
 if __name__ == "__main__":
     atexit.register(cleanup_cache)
+    # the use of log system is learned from copilot
     # Create a new log
     # Create a log folder if it does not exist
     if not os.path.exists("logs"):

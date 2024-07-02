@@ -1,5 +1,5 @@
 /* CSS Styles */
-
+/* Atributions raised by copilot and adjusted by myself */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -57,12 +57,12 @@ text-align: center;
 
 table {
     width: 100%;
-    border-collapse: collapse; /* 可选，使表格边框合并为单一边框 */
+    border-collapse: collapse;
   }
   
   th, td {
-    border: 1px solid black; /* 可选，给表格单元格添加边框 */
-    text-align: left; /* 可选，设置文本对齐方式 */
-    padding: 8px; /* 可选，设置单元格内边距 */
+    border: 1px solid black; 
+    text-align: left; 
+    padding: 8px; 
   }
 
