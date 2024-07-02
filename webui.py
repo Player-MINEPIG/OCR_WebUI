@@ -64,7 +64,7 @@ def upload_files():
 # check the status of the file
 @app.route("/ocr/status/<filename>", methods=["GET"])
 def check_status(filename):
-    status = file_status.get(filename, "未找到")
+    status = file_status.get(filename, "Not found")
     app.logger.info(f"File status checked: {filename} - {status}")
     return jsonify({"status": status}), 200
 
@@ -78,7 +78,7 @@ def converting():
     output_file = f"{os.path.splitext(file_name)[0]}.{output_type}"
     output_path = os.path.join("output", output_file)
     # check if the file has been converted
-    if file_status.get(file_name, "未找到") == "Converted" and os.path.exists(
+    if file_status.get(file_name, "Not found") == "Converted" and os.path.exists(
         output_path
     ):
         app.logger.info(f"File already converted: {file_name}")
