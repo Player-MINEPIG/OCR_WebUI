@@ -39,13 +39,13 @@ Here will introduce the normal work flow with this app.
 ### Upload the file
 
 1. Drag files or click the block to upload the file. The file name will be shown in that block. Each file will generate a new row.
-   ![image-20240702104240508](/Users/pmp/Library/Application Support/typora-user-images/image-20240702104240508.png)
+   <img width="362" alt="image-20240702104240508" src="https://github.com/Player-MINEPIG/OCR_WebUI/assets/69493765/241a2bee-48b4-4118-a13c-47ec40b9d191">
 
 ​		Once the upload succeeds, the status grid will become "Uploaded".
 
  2. Choose a text file type from the checkbox
 
-    ![image-20240702104720049](/Users/pmp/Library/Application Support/typora-user-images/image-20240702104720049.png)
+   <img width="176" alt="image-20240702104720049" src="https://github.com/Player-MINEPIG/OCR_WebUI/assets/69493765/e27d712d-a7b3-43b2-a5c1-bb892b6df3e4">
 
     The new generated row will automatically choose the last chosen one.
 
@@ -53,7 +53,7 @@ Here will introduce the normal work flow with this app.
 
    Once the conversion succeeds, the status grid will become "Converted". And a download link will appear in the file download grid. Click the link to download the converted file.
 
-   ![image-20240702104936139](/Users/pmp/Library/Application Support/typora-user-images/image-20240702104936139.png)
+   <img width="135" alt="image-20240702104936139" src="https://github.com/Player-MINEPIG/OCR_WebUI/assets/69493765/69e4cf23-fa02-48e5-aa56-0a6792df2250">
 
    If you wish to convert all the files listed, click on the "Start Converting" button on the head of the table.
 
@@ -61,7 +61,7 @@ Here will introduce the normal work flow with this app.
 
 ## UI
 
-![image-20240702104413019](/Users/pmp/Library/Application Support/typora-user-images/image-20240702104413019.png)
+<img width="926" alt="image-20240702104413019" src="https://github.com/Player-MINEPIG/OCR_WebUI/assets/69493765/b9401777-62b2-465a-9db6-364d5d464dea">
 
 ### File Upload
 
