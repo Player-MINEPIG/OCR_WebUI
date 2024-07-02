@@ -73,6 +73,9 @@ def check_status(filename):
 @app.route("/ocr/converting", methods=["POST"])
 def converting():
     file_name = request.form["fileName"]
+    if file_status.get(file_name, "Not found") == "Converting":
+        app.logger.info(f"File already converting: {file_name}")
+        return jsonify({"message": "File is converting"}), 200
     #  output contribution
     output_type = request.form["outputType"]
     output_file = f"{os.path.splitext(file_name)[0]}.{output_type}"
