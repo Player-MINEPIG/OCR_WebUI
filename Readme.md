@@ -39,6 +39,7 @@ Here will introduce the normal work flow with this app.
 ### Upload the file
 
 1. Drag files or click the block to upload the file. The file name will be shown in that block. Each file will generate a new row.
+
    <img width="362" alt="image-20240702104240508" src="https://github.com/Player-MINEPIG/OCR_WebUI/assets/69493765/241a2bee-48b4-4118-a13c-47ec40b9d191">
 
 ​		Once the upload succeeds, the status grid will become "Uploaded".
@@ -46,8 +47,7 @@ Here will introduce the normal work flow with this app.
  2. Choose a text file type from the checkbox
 
    <img width="176" alt="image-20240702104720049" src="https://github.com/Player-MINEPIG/OCR_WebUI/assets/69493765/e27d712d-a7b3-43b2-a5c1-bb892b6df3e4">
-
-    The new generated row will automatically choose the last chosen one.
+   The new generated row will automatically choose the last chosen one.
 
 3. Once the upload completes, click on the "Start Converting" button to start the conversion.
 
