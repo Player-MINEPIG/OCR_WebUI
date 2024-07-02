@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OCR</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ocr_style.css') }}">
+</head>
+<body>
+
+  <div class="topBar">
+    <a href="/ocr">Home</a>
+    <span>ocr</span>
+  </div>
+
+  <div class="container">
+    <!-- <form action="/ocr" method="post" enctype="multipart/form-data"> -->
+    <table>
+      <thead>
+          <tr>
+              <th>File Upload</th>
+              <th>Status</th>
+              <th>
+                <button type="button" onclick="startConvertingAll()">Start Converting</button>
+              </th>
+              <th>Output File Type</th>
+              <th>File Download</th>
+          </tr>
+      </thead>
+      <tbody id="fileList">
+          <!-- 动态添加文件信息行 -->
+           <tr>
+              <td>
+                <div class="uploadContainer" onclick="document.getElementById('file').click()" ondrop="dropHandler(event)" ondragover="dragOverHandler(event)">
+                  <input type="file" id="file" style="display:none" onchange="uploadFile()">
+                  Click or Drop files here to upload
+                </div>
+              </td>
+              <td>Not uploaded</td>
+              <td>
+                <button type="button" onclick="startConverting()">Start Converting</button>
+              </td>
+              <td>
+                <select id="outputType">
+                  <option value="md">md</option>
+                  <option value="txt">txt</option>
+                  <option value="json">json</option>
+                  <option value="xml">xml</option>
+                  <option value="csv">csv</option>
+                  <option value="html">html</option>
+                </select>
+              </td>
+              <td></td>
+          </tr>
+      </tbody>
+  </table>
+    <!-- </form> -->
+</div>
+
+<script src="{{ url_for('static', filename='js/progress.js') }}"></script>
+
+</body>
+</html>

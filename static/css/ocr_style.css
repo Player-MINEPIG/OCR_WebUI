@@ -1,0 +1,68 @@
+/* CSS Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.topBar {
+    width: 100vw;
+    height: 5vh;
+    background: linear-gradient(135deg, #f097c5 12%, #2196F3 12%);
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 10px;
+    gap: 10%;
+  }
+.topBar a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+text-align: center;
+}
+.topBar span {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: column;
+}
+.uploadContainer{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+.progressBar {
+    width: 0%;
+    height: 20px;
+    background-color: #4CAF50;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* 可选，使表格边框合并为单一边框 */
+  }
+  
+  th, td {
+    border: 1px solid black; /* 可选，给表格单元格添加边框 */
+    text-align: left; /* 可选，设置文本对齐方式 */
+    padding: 8px; /* 可选，设置单元格内边距 */
+  }
+
